@@ -1,0 +1,1 @@
+To destroy a AWS resource which is currently running either comment the resource from terraform script and run the terraform apply again or remove the resource which we want to terminate from the terraform script and run the terraform apply again. Both will do the same work of destroying the resource. When in production use always the former method.
